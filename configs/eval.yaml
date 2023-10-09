@@ -1,0 +1,23 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: /jetnet/jetnet_tops_30.yaml # choose datamodule with `test_dataloader()` for evaluation
+  - model: cnf_flow_matching.yaml
+  - callbacks: jetnet.yaml
+  - logger: many_loggers.yaml
+  - trainer: gpu.yaml
+  - paths: default.yaml
+  - extras: default.yaml
+  - hydra: default.yaml
+
+  - experiment: fm_tops.yaml
+task_name: "eval"
+
+tags: ["dev"]
+
+# passing checkpoint path is necessary for evaluation
+ckpt_path: ???
+
+# cfg_path: allows to load the whole config file of a run - if None/null, the config is composed from the experiment
+cfg_path: null

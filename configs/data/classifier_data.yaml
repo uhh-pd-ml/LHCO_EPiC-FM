@@ -1,0 +1,13 @@
+_target_: src.data.classifier_datamodule.ClassifierDataModule
+data_dir: ${paths.data_dir}
+gendatafile: "idealized_LHCO"
+batch_size: 128
+num_workers: 32
+pin_memory: False
+gen_jet: "both"
+ref_jet: "both"
+idealized: False
+use_shuffled_data: False
+use_nonrel_data: False
+n_signal: 0
+n_background: 100_000
