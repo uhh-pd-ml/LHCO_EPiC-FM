@@ -9,14 +9,14 @@
 [![black](https://img.shields.io/badge/Code%20Style-Black-black.svg?labelColor=gray)](https://black.readthedocs.io/en/stable/)
 [![isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/) <br>
 <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a>
-[![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
+[![Paper](http://img.shields.io/badge/paper-arxiv.2310.06897-B31B1B.svg)](https://arxiv.org/abs/2310.06897)
 [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020)
 
 </div>
 
 ## Description
 
-This repository contains the code for the Flow Matching Generative Models from [XXX](https://arxiv.org/abs/1111.11111). For the preparation of the data see this [repository](https://github.com/ewencedr/FastJet-LHCO), the second generative model and the classifier can be found [here](https://github.com/ViniciusMikuni/LHCO_diffusion). 
+This repository contains the code for the Flow Matching Generative Models from the paper '[Full Phase Space Resonant Anomaly Detection](https://arxiv.org/abs/2310.06897)'. For the preparation of the data see this [repository](https://github.com/ewencedr/FastJet-LHCO), the second generative model and the classifier can be found [here](https://github.com/ViniciusMikuni/LHCO_diffusion). 
 We used the [LHC Olympics](https://lhco2020.github.io/homepage/) R&D anomaly detection dataset.
 
 > Physics beyond the Standard Model that is resonant in one or more dimensions has been a
