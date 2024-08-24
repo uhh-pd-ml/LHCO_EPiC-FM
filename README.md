@@ -16,6 +16,9 @@
 
 ## Description
 
+> [!NOTE]
+> A library that includes these models as well as additional loss functions, architectures and (particle physics) datasets can be found [here](https://github.com/ewencedr/particle_fm).
+
 This repository contains the code for the Flow Matching Generative Models from the paper '[Full Phase Space Resonant Anomaly Detection](https://arxiv.org/abs/2310.06897)'. For the preparation of the data see this [repository](https://github.com/ewencedr/FastJet-LHCO), the second generative model and the classifier can be found [here](https://github.com/ViniciusMikuni/LHCO_diffusion). 
 We used the [LHC Olympics](https://lhco2020.github.io/homepage/) R&D anomaly detection dataset.
 
